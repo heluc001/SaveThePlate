@@ -19,7 +19,7 @@ from datetime import date, datetime
 from itertools import combinations
 from pathlib import Path
 
-THEMEALDB_API_KEY = "9973533"
+THEMEALDB_API_KEY = st.secrets["API_KEY"]
 THEMEALDB_API_ENDPOINT = f"https://www.themealdb.com/api/json/v2/{THEMEALDB_API_KEY}"
 
 # DB filepath
